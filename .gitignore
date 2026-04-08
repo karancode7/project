@@ -1,0 +1,82 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Flask
+# =========================
+instance/
+*.db
+*.sqlite3
+*.log
+
+# Flask environment variables
+.env
+.flaskenv
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# App Specific
+# =========================
+uploads/
+flask_session/
+database.sqlite
